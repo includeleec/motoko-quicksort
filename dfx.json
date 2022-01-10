@@ -3,19 +3,6 @@
     "quicksort": {
       "main": "src/quicksort/main.mo",
       "type": "motoko"
-    },
-    "quicksort_assets": {
-      "dependencies": [
-        "quicksort"
-      ],
-      "frontend": {
-        "entrypoint": "src/quicksort_assets/src/index.html"
-      },
-      "source": [
-        "src/quicksort_assets/assets",
-        "dist/quicksort_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
