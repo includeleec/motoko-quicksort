@@ -44,7 +44,7 @@ actor {
     };
 
 
-    public func main(xs : [Int]) : async [Int] {
+    public func qsort(xs : [Int]) : async [Int] {
         let n = xs.size();
 
         if (n < 2) {
